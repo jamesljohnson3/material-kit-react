@@ -33,7 +33,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import BookRoundedIcon from '@mui/icons-material/BookRounded';
 
 // custom
-import filesTheme from './theme';
+import filesTheme from '../theme/theme';
 import Menu from '../components/Menu';
 import Layout from '../components/Layout';
 import Navigation from '../components/Navigation';
