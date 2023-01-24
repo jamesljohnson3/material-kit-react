@@ -63,7 +63,7 @@ const items = [
     title: 'Team'
   },
   {
-    href: '/emails',
+    href: '/email',
     icon: (<UserAddIcon fontSize="small" />),
     title: 'Email'
   },
