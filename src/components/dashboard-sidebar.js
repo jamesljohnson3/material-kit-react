@@ -53,6 +53,21 @@ const items = [
     title: 'Register'
   },
   {
+    href: '/files',
+    icon: (<UserAddIcon fontSize="small" />),
+    title: 'Files'
+  },
+  {
+    href: '/team',
+    icon: (<UserAddIcon fontSize="small" />),
+    title: 'Team'
+  },
+  {
+    href: '/emails',
+    icon: (<UserAddIcon fontSize="small" />),
+    title: 'Email'
+  },
+  {
     href: '/404',
     icon: (<XCircleIcon fontSize="small" />),
     title: 'Error'
