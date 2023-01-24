@@ -320,7 +320,6 @@ export default function TeamExample() {
                   },
                 ]}
                 groupBy={(option) => option.category}
-                getOptionLabel={(option) => option.title}
               />
               <Box sx={{ mt: 2, display: 'flex', gap: 1 }}>
                 <Chip
