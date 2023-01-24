@@ -181,6 +181,10 @@ export default function FilesExample() {
                   href: '/files/',
                   'aria-current': 'page',
                 },
+                {
+                    label: 'Dashboard',
+                    href: '/',
+                  },
               ]}
             />
             <ColorSchemeToggle />

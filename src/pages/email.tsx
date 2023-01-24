@@ -162,6 +162,10 @@ export default function EmailExample() {
                   label: 'Files',
                   href: '/files/',
                 },
+                {
+                    label: 'Dashboard',
+                    href: '/',
+                  },
               ]}
             />
             <ColorSchemeToggle />

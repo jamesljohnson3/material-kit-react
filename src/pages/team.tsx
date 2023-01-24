@@ -239,6 +239,10 @@ export default function TeamExample() {
                   label: 'Files',
                   href: '/files/',
                 },
+                {
+                    label: 'Dashboard',
+                    href: '/',
+                  },
               ]}
             />
             <ColorSchemeToggle />
