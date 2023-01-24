@@ -227,17 +227,17 @@ export default function TeamExample() {
               menus={[
                 {
                   label: 'Email',
-                  href: '/joy-ui/getting-started/templates/email/',
+                  href: '/email/',
                 },
                 {
                   label: 'Team',
                   active: true,
-                  href: '/joy-ui/getting-started/templates/team/',
+                  href: '/team/',
                   'aria-current': 'page',
                 },
                 {
                   label: 'Files',
-                  href: '/joy-ui/getting-started/templates/files/',
+                  href: '/files/',
                 },
               ]}
             />

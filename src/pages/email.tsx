@@ -151,16 +151,16 @@ export default function EmailExample() {
                 {
                   label: 'Email',
                   active: true,
-                  href: '/joy-ui/getting-started/templates/email/',
+                  href: '/email/',
                   'aria-current': 'page',
                 },
                 {
                   label: 'Team',
-                  href: '/joy-ui/getting-started/templates/team/',
+                  href: '/team/',
                 },
                 {
                   label: 'Files',
-                  href: '/joy-ui/getting-started/templates/files/',
+                  href: '/files/',
                 },
               ]}
             />

@@ -169,16 +169,16 @@ export default function FilesExample() {
               menus={[
                 {
                   label: 'Email',
-                  href: '/joy-ui/getting-started/templates/email/',
+                  href: '/email/',
                 },
                 {
                   label: 'Team',
-                  href: '/joy-ui/getting-started/templates/team/',
+                  href: '/team/',
                 },
                 {
                   label: 'Files',
                   active: true,
-                  href: '/joy-ui/getting-started/templates/files/',
+                  href: '/files/',
                   'aria-current': 'page',
                 },
               ]}
