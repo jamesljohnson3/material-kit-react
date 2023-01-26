@@ -13,10 +13,14 @@
     "lint-fix": "next lint --fix"
   },
   "dependencies": {
+    "@clerk/clerk-react": "^4.8.6",
+    "@clerk/nextjs": "^4.7.9",
     "@emotion/cache": "11.10.3",
     "@emotion/react": "^11.10.4",
     "@emotion/server": "11.10.0",
     "@emotion/styled": "^11.10.4",
+    "@fullstory/browser": "^1.6.2",
+    "@knocklabs/react-notification-feed": "^0.8.2",
     "@mui/icons-material": "5.10.3",
     "@mui/joy": "^5.0.0-alpha.64",
     "@mui/lab": "5.0.0-alpha.99",
@@ -25,6 +29,7 @@
     "@mui/x-date-pickers": "5.0.1",
     "@zalter/identity-js": "1.2.1",
     "chart.js": "3.9.1",
+    "commandbar": "^1.7.2",
     "date-fns": "2.29.3",
     "formik": "2.2.9",
     "next": "12.3.0",
