@@ -9,6 +9,7 @@ import { AuthConsumer, AuthProvider } from '../contexts/auth-context';
 import { createEmotionCache } from '../utils/create-emotion-cache';
 import { registerChartJs } from '../utils/register-chart-js';
 import { theme } from '../theme';
+import { ClerkProvider, RedirectToSignIn, SignedIn, SignedOut, useClerk } from "@clerk/nextjs";
 
 registerChartJs();
 
@@ -19,7 +20,8 @@ const App = (props) => {
 
   const getLayout = Component.getLayout ?? ((page) => page);
 
-  return (
+  return (    <ClerkProvider>      <SignedIn>
+
     <CacheProvider value={emotionCache}>
       <Head>
         <title>
@@ -44,7 +46,13 @@ const App = (props) => {
           </AuthProvider>
         </ThemeProvider>
       </LocalizationProvider>
-    </CacheProvider>
+    </CacheProvider>  </SignedIn>
+    <SignedOut>
+  
+        <RedirectToSignIn />
+ 
+    </SignedOut>   </ClerkProvider>
+
   );
 };
 
