@@ -73,7 +73,7 @@ export const AccountPopover = (props) => {
           px: 2
         }}
       >
-        <Typography variant="overline" href="https://github.com/">
+        <Typography variant="overline" href="https://connect.unlimitpotential.com/user">
           Account
         </Typography>
         <Typography
