@@ -4,10 +4,12 @@ import PropTypes from 'prop-types';
 import { Box, MenuItem, MenuList, Popover, Typography } from '@mui/material';
 import { AuthContext } from '../contexts/auth-context';
 import { auth, ENABLE_AUTH } from '../lib/auth';
+import { useUser, useClerk } from '@clerk/clerk-react';
 
 export const AccountPopover = (props) => {
   const { anchorEl, onClose, open, ...other } = props;
   const authContext = useContext(AuthContext);
+  const { signOut } = useClerk();
 
   const handleSignOut = async () => {
     onClose?.();
@@ -93,7 +95,7 @@ export const AccountPopover = (props) => {
           }
         }}
       >
-        <MenuItem onClick={handleSignOut}>
+        <MenuItem onClick={() => signOut()}>
           Sign out
         </MenuItem>
       </MenuList>
