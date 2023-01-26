@@ -76,7 +76,6 @@ export const DashboardNavbar = (props) => {
           </Tooltip>
           <Avatar
             onClick={() => setOpenAccountPopover(true)}
-            ref={settingsRef}
             sx={{
               cursor: 'pointer',
               height: 40,
