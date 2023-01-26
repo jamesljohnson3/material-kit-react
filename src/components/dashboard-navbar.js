@@ -76,13 +76,14 @@ export const DashboardNavbar = (props) => {
           </Tooltip>
           <Avatar
             onClick={() => setOpenAccountPopover(true)}
+            ref={settingsRef}
             sx={{
               cursor: 'pointer',
               height: 40,
               width: 40,
               ml: 1
             }}
-            src={profileImageUrl}
+            srcSet={profileImageUrl}
           >
             <UserCircleIcon fontSize="small" />
           </Avatar>
