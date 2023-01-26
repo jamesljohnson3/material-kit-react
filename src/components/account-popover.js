@@ -73,7 +73,7 @@ export const AccountPopover = (props) => {
           px: 2
         }}
       >
-        <Typography variant="overline">
+        <Typography variant="overline" href="https://github.com/">
           Account
         </Typography>
         <Typography
