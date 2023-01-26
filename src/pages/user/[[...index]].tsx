@@ -1,9 +1,7 @@
 import { UserProfile } from '@clerk/clerk-react';
-import Box2 from '../../components/Box2';
-import EmptyBox from '../../components/emptybox';
-import Tease from '../../components/box5';
+import React from 'react';
 
 
-const UserProfilePage = () => <><Box2 /><EmptyBox /><UserProfile path='/user' routing='path' /></>;
+const UserProfilePage = () => <><UserProfile path='/user' routing='path' /></>;
 
 export default UserProfilePage;
