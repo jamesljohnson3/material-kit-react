@@ -10,6 +10,7 @@ export const AccountPopover = (props) => {
   const { anchorEl, onClose, open, ...other } = props;
   const authContext = useContext(AuthContext);
   const { signOut } = useClerk();
+  const { id, user, emailAddresses, profileImageUrl, fullName, firstName } = useUser();
 
   const handleSignOut = async () => {
     onClose?.();
@@ -79,7 +80,7 @@ export const AccountPopover = (props) => {
           color="text.secondary"
           variant="body2"
         >
-          John Doe
+         {fullName}
         </Typography>
       </Box>
       <MenuList
