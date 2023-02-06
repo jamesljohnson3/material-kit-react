@@ -111,7 +111,7 @@ material-kit-react
 
 ## Resources
 
-- More freebies like this one: <https://devias.io>
+- More freebies like thjis one: <https://devias.io>
 
 ## Reporting Issues:
 
